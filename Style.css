@@ -10,7 +10,7 @@ body {
     padding-top: 15vh;
 }
 .container {
-    height: 40vh;
+    height: 20em;
 }
 
 /* Column color */
@@ -86,4 +86,24 @@ button:hover {
 }
 .button-3:hover {
  background-color: hsl(179, 100%, 13%);
+}
+
+/* media queries */
+@media only screen and (max-width:375px) {
+    .row {
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    .col-2 {
+        width: 80vw;
+    }
+    #First {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    #Third {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
 }
