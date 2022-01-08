@@ -1,0 +1,89 @@
+
+body {
+   /* font-family:Lexend Deca;*/
+    background: hsl(0, 0%, 95%);
+    Font size: 15px;
+}
+
+/*Container desing */
+.row {
+    padding-top: 15vh;
+}
+.container {
+    height: 40vh;
+}
+
+/* Column color */
+#First {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#Second {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#Third {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:hsl(179, 100%, 13%);
+}
+/* image desing */
+.img {
+    margin-top : 2rem;
+    margin-bottom : 2rem;
+}
+
+/* Text styles */
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h3 {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+/* Buttons */
+button {
+    margin: 3em;
+    padding: 1em 1.5em;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Hovered Button */
+button:hover {
+ color: #fff;
+ border: 1px solid;
+ border-color: #fff;
+}
+
+.button-1:hover {
+ background-color: hsl(31, 77%, 52%);
+}
+.button-2:hover {
+ background-color: hsl(184, 100%, 22%);
+}
+.button-3:hover {
+ background-color: hsl(179, 100%, 13%);
+}
