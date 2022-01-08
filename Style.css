@@ -2,7 +2,7 @@
 body {
    /* font-family:Lexend Deca;*/
     background: hsl(0, 0%, 95%);
-    Font size: 15px;
+    Font-size: 15px;
 }
 
 /*Container desing */
@@ -100,10 +100,10 @@ button:hover {
     }
     #First {
         border-top-right-radius: 10px;
-        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0;
     }
     #Third {
-        border-top-right-radius: 0px;
+        border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
     }
 }
